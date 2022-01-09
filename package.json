@@ -1,0 +1,19 @@
+{
+  "name": "ci-cd-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "supertest": "^6.1.6"
+  },
+  "scripts": {
+    "start": "node src",
+    "test": "jest src/app.test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
