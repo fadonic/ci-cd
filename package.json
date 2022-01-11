@@ -13,6 +13,7 @@
   },
   "scripts": {
     "start": "node src",
+    "heroku-postbuild": "npm install && npm run build",
     "test": "jest src/app.test.js"
   },
   "author": "",
